@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#game {
+  width: 600px;
+  margin: auto;
+}
+
+#customerQueue {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.customer {
+  padding: 10px;
+  border: 1px solid #000;
+  background: #eef;
+  width: 100px;
+}
+
+#counter button {
+  margin: 5px;
+  padding: 10px;
+}
+
+#score {
+  font-weight: bold;
+  margin-top: 20px;
+}
